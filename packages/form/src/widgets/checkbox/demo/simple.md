@@ -30,7 +30,7 @@ export class DemoComponent {
             // 单个多选框
             single: {
                 'type': 'boolean',
-                'title': '同意本协议',
+   
                 'description': '《用户协议》',
                 'ui': {
                     'widget': 'checkbox'
