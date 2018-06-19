@@ -13,7 +13,7 @@ import { SimpleTableColumn } from "@delon/abc";
   selector: "app-demo",
   template: `
   <simple-table [data]="url"
-    [extraParams]="params" [total]="total" [columns]="columns"
+    [extraParams]="params" [total]="1" [columns]="columns"
     [resReName]="{list: 'results' }"
     ></simple-table>`
 })
@@ -27,7 +27,7 @@ export class DemoComponent {
     { title: "头像", type: "img", width: "50px", index: "picture.thumbnail" },
     { title: "邮箱", index: "email" },
     { title: "电话", index: "phone" },
-    { title: "注册时间", type: "date", index: "registered" }
+    { title: "注册时间", index: "registered" }
   ];
 }
 ```
